@@ -1,0 +1,364 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    color: #8c8c8c;
+}
+p{
+    color: #8c8c8c;
+}
+
+.img-width{
+    width: 97%;
+}
+.section .nav-header{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+}
+
+nav.black{
+    background: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+
+.nav-header .logo{
+    float: left;
+    height: 80px;
+    padding: 22px 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #cc9900;
+}
+
+nav.black .logo{
+    color: white;
+}
+
+.nav-header ul{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-header ul li{
+    list-style: none;
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+    line-height: 80px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-header ul li a:hover{
+    background-color: #cc9900;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.nav-header ul li .active{
+    color: white;
+}
+
+
+/*
+nav.black ul li a{
+    color: white;
+}
+*/
+
+.active{
+    background-color: #cc9900;
+    color: white;
+    border-radius: 5px;
+}
+
+.section .section1{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/tm-home-img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content{
+    text-align: center;
+}
+h2{
+    font-size: 2.2rem;
+    color: #cc9900;
+}
+.content h2{
+    
+    margin-top: 80px;
+}
+
+.content p{
+    color: #8c8c8c;
+    line-height: 1.7;
+    max-width: 800px;
+    font-size: 1.7rem;
+    margin: 0 auto 80px;
+}
+
+
+
+.section2 .img-title-parg-cont h3{
+    font-size: 1.2em;
+    color: #cc9900;
+}
+
+.section2 .img-title-parg-cont p{
+    font-size: 1.1em;
+    
+}
+
+.section2 .img-title-parg-cont a{
+    text-decoration: none;
+    
+}
+
+
+.icon{
+    margin-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    transition: right 0.4s;
+    right: 0;
+}
+
+.section2{
+    margin-bottom: 100px;
+}
+
+.section3{
+    width: 100%;
+    height: auto;
+}
+
+.section3 h3{
+    font-size: 2.1rem;
+    color: #cc9900;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.section3 .part-left{
+    float: left;
+
+}
+
+.section3 .part-left .Vivamus{
+    font-size: 18px;
+}
+.section3 .part-left img{
+    max-width: 100%;
+    margin: 30px 0;
+}
+.section3 .part-left .part-left-parg{
+    font-size: 16px;
+    line-height: 2em;
+    color: #8c8c8c;
+}
+
+.section3 ul{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.section3 ul li{
+    list-style-type: none;
+    
+}
+
+.section3 ul li a{
+    color: #006699;
+    line-height: 2.8;
+    font-size: 1.2em;
+}
+
+.section3 .link-readmore{
+    margin-top: 50px;
+    text-decoration: none;
+}
+.part-rigth-lerom .part-lerom h3{
+    padding: 0;
+    margin: 0;
+}
+
+
+.part-rigth-lerom .part-lerom p{
+    font-size: 14.5px;
+}
+.part-lerom1{
+    margin: 50px 0;
+    
+}
+.border-bottom{
+    border-bottom: 1px solid #333;
+}
+
+.section4{
+    background-image: url(../img/classic-pattern-bg.png);
+    left: 0;
+    right: 0;
+}
+
+.section4 h3{
+    color: #cc9900;
+    font-size: 1.5em;
+    margin: 40px 0;
+}
+
+.section4 .parg-Proin{
+    background-color: #cad4d5;
+    padding: 30px 10px 40px 20px;
+    font-size: 1 rem;
+    line-height: 2;
+}
+
+.section4 .parg-Proin .black-bold{
+    color: black;
+    font-weight: bold;
+}
+
+.copyRigth{
+    margin: 100px 0 20px 0;
+}
+
+.section4 .footer ul{
+    padding:0px;
+}
+.section4 .footer ul li{
+    list-style-type: none;
+}
+
+.section4 .footer ul li a{
+    line-height: 3;
+    font-size: 1.15em;
+    color: #CCCC66;
+}
+
+
+.section4 .parg-section4-border{
+    border-bottom: 1px solid white;
+    padding: 20px 0px; 
+    font-size: 1.1em;
+}
+.section4 .parg-section4-no-border{
+    padding: 20px 0px; 
+    font-size: 1.1em;
+}
+
+.section4 .btn-info{
+    color: white;
+    background-color: #555;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.section4 .btn-info:hover{
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.section4 .img-row{
+   margin-bottom: 30px;
+}
+.section4 .last-parg-section4{
+    padding: 10px 0px; 
+    font-size: 1.1em;
+}
+
+
+@media (max-width:770px){
+.section .nav-header{
+    height: 200px;
+    padding: 10px 50px;
+    background: none;
+}
+
+
+
+.nav-header .logo{
+    padding: 22px 10px;
+    font-size: 22px; 
+    text-align: center;
+    float: none;
+}
+
+
+.nav-header ul{
+    float: none;
+    display: block;
+    padding: 0;
+    margin-top: 10px;
+}
+.nav-header ul li {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+line-height: 15px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.active{
+    background-color: #cc9900;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    padding: 0;
+}
+
+    
+    .content p{
+        padding: 0 60px;
+    }
+    
+    .section2{
+    margin-bottom: 25px;
+}
+    
+    .section2 .img-title-parg-cont{
+        margin-top: 40px;
+    }
+    
+    
+    /*--------section4--------*/
+    
+    .section3 .part-left .Vivamus {
+    font-size: 15px;
+        margin: 0;
+}
+    
+    
+    /*--------section4--------*/
+    
+    .section4 .btn-info {
+    bottom: -20px;
+}
+    
+}
